@@ -2,7 +2,7 @@ import { useState } from 'react'
 import PropTypes from 'prop-types';
 
 import './ShareModal.css'
-import { CloseLogo } from './logos/closeLogo';
+import { CloseLogo } from './logos/CloseLogo';
 import { FacebookLogo } from './logos/FacebookLogo';
 import { TwitterLogo } from './logos/TwitterLogo';
 import { MailLogo } from './logos/MailLogo';

@@ -179,7 +179,7 @@ function App() {
       { city && daytime &&
       <>
       <Spinner />
-      { daytime === 'day' ? <BackgroundImage src='src/assets/images/day-dark.png' alt='results top image'/> : <BackgroundImage src='src/assets/images/night-dark.png' alt='results top image'/>}
+      { daytime === 'day' ? <BackgroundImage src='assets/images/day-dark.png' alt='results top image'/> : <BackgroundImage src='assets/images/night-dark.png' alt='results top image'/>}
       {isModalOpen && <ShareModal showModal={isModalOpen} closeModal={closeModal} />}
       <section className="results-top-section">
         <div className='wrapper'>

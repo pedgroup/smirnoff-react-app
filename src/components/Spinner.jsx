@@ -19,7 +19,7 @@ export const Spinner = () => {
   return (
     <div className={`spinner ${visible ? 'visible' : ''}`}>
       <div className="spinner-wrapper">
-        <img src="src/assets/images/spinner.gif" alt="spinner" />
+        <img src="assets/images/spinner.gif" alt="spinner" />
         <div id="loading"></div>
       </div>
     </div>

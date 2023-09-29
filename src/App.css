@@ -19,7 +19,7 @@
   position: relative;
   min-height: 50vh;
   overflow: hidden;
-  background-image: url(src/assets/images/top_image.png);
+  background-image: url(assets/images/top_image.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,7 +54,7 @@
   position: relative;
   justify-content: start;
   flex-wrap: wrap;
-  background-image: url(src/assets/images/top_cities.png);
+  background-image: url(assets/images/top_cities.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -99,13 +99,13 @@
 }
 
 .main-container.main-container.daytime .column:first-of-type {
-  background-image: url(src/assets/images/day.png);
+  background-image: url(assets/images/day.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .main-container.main-container.daytime .column:last-of-type {
-  background-image: url(src/assets/images/night.png);
+  background-image: url(assets/images/night.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

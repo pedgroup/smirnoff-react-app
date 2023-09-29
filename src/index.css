@@ -1,5 +1,10 @@
+@font-face {
+  font-family: 'Korolev-Bold';
+  src: url(assest/fonts/Korolev-Bold.woff2) format("woff2")
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Korolev-Bold, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -17,6 +22,7 @@
 body {
   margin: 0;
   overflow: hidden;
+  font-family: 'Korolev-Bold', system-ui, Helvetica, Arial, sans-serif;
 }
 body.results {
   overflow: visible;

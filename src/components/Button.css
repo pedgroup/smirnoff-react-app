@@ -1,0 +1,29 @@
+.choices-card button {
+    border: none;
+    cursor: pointer;
+}
+.choices-card.cities button {
+    background-color: #ffffff;
+    opacity: 0.85;
+    min-width: 300px;
+    min-height: 96px;
+    cursor: pointer;
+}
+.choices-card button:hover {
+    border-color: #646cff;
+}
+.choices-card button:focus,
+.choices-card button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+.choices-card.cities button:not(:last-child) {
+    margin-bottom: 1rem;
+}
+  
+@media (prefers-color-scheme: light) {
+    button {
+      background-color: transparent;
+      min-width: 150px;
+  
+    }
+}

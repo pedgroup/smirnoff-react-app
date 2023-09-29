@@ -21,7 +21,7 @@
 
 body {
   margin: 0;
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: 'Korolev-Bold', system-ui, Helvetica, Arial, sans-serif;
 }
 body.results {

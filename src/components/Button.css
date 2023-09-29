@@ -19,11 +19,6 @@
 .choices-card.cities button:not(:last-child) {
     margin-bottom: 1rem;
 }
-  
-@media (prefers-color-scheme: light) {
-    button {
-      background-color: transparent;
-      min-width: 150px;
-  
-    }
+button {
+    background-color: transparent;
 }

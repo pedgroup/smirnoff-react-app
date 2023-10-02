@@ -248,79 +248,79 @@ export const cards = [
             { 
                 title: 'The Zesty Trap Cocktail Bar',
                 soda: 'Yuzu Citrus Burst',
-                image: 'assets/images/cards/adelaide/The_Zesty_Trap_Cocktail_Bar_.png' 
+                image: 'assets/images/cards/adelaide/The_Zesty_Trap_Cocktail_Bar.png' 
             },
             { 
                 title: 'The Electric Listen In',
                 soda: 'Yuzu Citrus Burst',
-                image: 'assets/images/cards/adelaide/The_Electric_Listen_In_.png' 
+                image: 'assets/images/cards/adelaide/The_Electric_Listen_In.png' 
             },
             { 
                 title: 'The Cool As Hell Golden Boy',
                 soda: 'Yuzu Citrus Burst',
-                image: 'assets/images/cards/adelaide/The_Cool_As_Hell_Golden_Boy_.png' 
+                image: 'assets/images/cards/adelaide/The_Cool_As_Hell_Golden_Boy.png' 
             },
             { 
                 title: 'The Iconic Crybaby Bar',
                 soda: 'Pink Grapefruit Crush',
-                image: 'assets/images/cards/adelaide/The_Iconic_Crybaby_Bar_.png' 
+                image: 'assets/images/cards/adelaide/The_Iconic_Crybaby_Bar.png' 
             },
             { 
                 title: 'The Stunning Pastel Wine Bar',
                 soda: 'Pink Grapefruit Crush',
-                image: 'assets/images/cards/adelaide/The_Stunning_Pastel_Wine_Bar_.png' 
+                image: 'assets/images/cards/adelaide/The_Stunning_Pastel_Wine_Bar.png' 
             },
             { 
                 title: 'The Old-School & Homey Bakery On O’Connell',
                 soda: 'Yuzu Citrus Burst',
-                image: 'assets/images/cards/adelaide/The_Old-School___Homey_Bakery_On_O’Connell_.png' 
+                image: 'assets/images/cards/adelaide/The_Old-School___Homey_Bakery_On_O’Connell.png' 
             },
             { 
                 title: 'Hindley Street Music Hall',
                 soda: 'Yuzu Citrus Burst',
-                image: 'assets/images/cards/adelaide/Hindley_Street_Music_Hall_.png' 
+                image: 'assets/images/cards/adelaide/Hindley_Street_Music_Hall.png' 
             },
         ],
         'day': [
             { 
                 title: 'The Stunning Glenelg Pier Hotel',
                 soda: 'Lime & Lemon',
-                image: 'assets/images/cards/adelaide/The_Stunning_Glenelg_Pier_Hotel_.png' 
+                image: 'assets/images/cards/adelaide/The_Stunning_Glenelg_Pier_Hotel.png' 
             },
             { 
                 title: 'The Rugged & Beautiful Morialta Conservation Park',
                 soda: 'Lime & Lemon',
-                image: 'assets/images/cards/adelaide/The_Rugged___Beautiful_Morialta_Conservation_Park_.png' 
+                image: 'assets/images/cards/adelaide/The_Rugged___Beautiful_Morialta_Conservation_Park.png' 
             },
             { 
                 title: 'The Cosy Fred Eatery',
                 soda: 'Pineapple & Lime',
-                image: 'assets/images/cards/adelaide/The_Cosy_Fred_Eatery_.png' 
+                image: 'assets/images/cards/adelaide/The_Cosy_Fred_Eatery.png' 
             },
             { 
                 title: 'The Mellow Henley Beach',
                 soda: 'Peach & Lime',
-                image: 'assets/images/cards/adelaide/The_Mellow_Henley_Beach_.png' 
+                image: 'assets/images/cards/adelaide/The_Mellow_Henley_Beach.png' 
             },
             { 
                 title: 'The Groovy Sunny’s Pizza',
                 soda: 'Pineapple & Lime',
-                image: 'assets/images/cards/adelaide/The_Groovy_Sunny’s_Pizza_.png' 
+                image: 'assets/images/cards/adelaide/The_Groovy_Sunny’s_Pizza.png' 
             },
             { 
                 title: 'The Punchy Flex Adelaide',
                 soda: 'Pineapple & Lime',
-                image: 'assets/images/cards/adelaide/The_Punchy_Flex___.png' 
+                image: 'assets/images/cards/adelaide/The_Punchy_Flex_Adelaide.png' 
             },
             { 
                 title: 'The Delicious Central Market',
                 soda: 'Peach & Lime',
-                image: 'assets/images/cards/adelaide/The_Delicious_Central_Market_.png' 
+                image: 'assets/images/cards/adelaide/The_Delicious_Central_Market.png' 
             },
             { 
                 title: 'The Chic Sustainable Clothing Co',
                 soda: 'Peach & Lime',
-                image: 'assets/images/cards/adelaide/The_Chic_Sustainable_Clothing_Co_.png' 
+                image: 'assets/images/cards/adelaide/The_Chic_Sustainable_Clothing_Co.png' 
             },
         ]
     },

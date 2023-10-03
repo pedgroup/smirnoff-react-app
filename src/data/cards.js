@@ -241,11 +241,6 @@ export const cards = [
                 image: 'assets/images/cards/adelaide/The_Zesty_Trap_Cocktail_Bar.png' 
             },
             { 
-                title: 'The Electric Listen In',
-                soda: 'Yuzu Citrus Burst',
-                image: 'assets/images/cards/adelaide/The_Electric_Listen_In.png' 
-            },
-            { 
                 title: 'The Cool As Hell Golden Boy',
                 soda: 'Yuzu Citrus Burst',
                 image: 'assets/images/cards/adelaide/The_Cool_As_Hell_Golden_Boy.png' 

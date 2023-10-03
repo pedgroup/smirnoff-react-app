@@ -93,14 +93,7 @@ function App() {
       <Header />
       { !city && template === 'intro' && 
       <>
-        <div className='top-section'>
-          <div className='top-section-text'>
-            <a href='https://drinkwise.org.au/' target='_blank' rel="noreferrer">
-              <DrinkWiseLogo />
-            </a>
-            <p>Please do not share this content with anyone under the age of 18</p>
-          </div>
-        </div>
+        <div className='top-section'></div>
         <div className={ 'choices-card ' + template }>
           <p>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
@@ -153,6 +146,7 @@ function App() {
       </>
       }
       { city && !daytime && <>
+        <h2>Pick Day or Night</h2>
         <section className="columns">
           <div className="column">
           <div className={ 'choices-card ' + template }>
@@ -216,9 +210,9 @@ function App() {
                 <button onClick={openModal}>
                   Share
                 </button>
-                <button href='#' >
+                <a href='https://pedestriantv1.typeform.com/to/PaV9ew4v' target="_blank" >
                   Enter to Win
-                </button>
+                </a>
                 <button className='star' onClick={() => regeneratetemplate()}>
                 <StarLogo />
                 </button>

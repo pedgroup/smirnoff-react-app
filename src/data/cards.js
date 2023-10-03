@@ -89,11 +89,6 @@ export const cards = [
                 image: 'assets/images/cards/sydney/The_Classic_Golden_Age_Cinemas.png' 
             },
             { 
-                title: 'The Pumping Listen Out Festival',
-                soda: 'Pink Grapefruit Crush',
-                image: 'assets/images/cards/sydney/The_Pumping_Listen_Out_Festival.png' 
-            },
-            { 
                 title: 'The Brand New Abercrombie Hotel',
                 soda: 'Yuzu Citrus Burst',
                 image: 'assets/images/cards/sydney/The_Brand_New_Abercrombie_Hotel.png' 
@@ -205,11 +200,6 @@ export const cards = [
                 title: 'The Refreshing Ferry',
                 soda: 'Lime & Lemon',
                 image: 'assets/images/cards/brisbane/The_Refreshing_Ferry.png' 
-            },
-            { 
-                title: 'The Pumping Listen Out Festival',
-                soda: 'Lime & Lemon',
-                image: 'assets/images/cards/brisbane/The_Pumping_Listen_Out_Festival.png' 
             },
             { 
                 title: 'Red Hill Cinema',
@@ -335,11 +325,6 @@ export const cards = [
                 title: 'The Effervescent Glowing Room',
                 soda: 'Pink Grapefruit Crush',
                 image: 'assets/images/cards/perth/The_Effervescent_Glowing_Room.png' 
-            },
-            { 
-                title: 'The Popping Listen Out Festival',
-                soda: 'Yuzu Citrus Burst',
-                image: 'assets/images/cards/perth/The_Popping_Listen_Out_Festival.png' 
             },
             { 
                 title: 'The Romantic Somerville Auditorium',

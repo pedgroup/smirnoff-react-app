@@ -212,7 +212,7 @@ function App() {
                   Share
                 </button>
                 <a href='https://pedestriantv1.typeform.com/to/PaV9ew4v' target="_blank" >
-                  Enter to Win
+                  Enter to Win*
                 </a>
                 <button className='star' onClick={() => regeneratetemplate()}>
                 {daytime === 'day' ? <StarLogo /> : <StarLogoNight />}
@@ -231,6 +231,7 @@ function App() {
           </Columns>
         </div>
       </section>
+      <p className='disclaimer'>*Lorem ipsum dolor sit amet consectetur. In massa diam mauris aliquam vulputate. Odio tortor hac cras egestas ipsum vitae mauris. Magnis nulla fau.</p>
       </>
       }
       

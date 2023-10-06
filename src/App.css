@@ -350,4 +350,15 @@ section.results-top-section {
     display: block;
     text-align: center;
    }
+   .disclaimer {
+    position: absolute;
+    display: block!important;
+    bottom: 0;
+    font-size: 14px;
+    max-width: 600px;
+    text-align: center;
+  }
+}
+.disclaimer {
+  display: none;
 }

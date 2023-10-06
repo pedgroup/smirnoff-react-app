@@ -3,13 +3,14 @@ import './Spinner.css'
 import { useState } from 'react'
 import { useEffect } from 'react'
 
-export const Spinner = () => {
+export const Spinner = (daytime) => {
+  console.log(daytime)
   const [visible, setVisible] = useState(true);
 
   useEffect(() => {
     const spinnerTimeout = setTimeout(() => {
       setVisible(false);
-    }, 1500);
+    }, 2000);
 
     return () => {
       clearTimeout(spinnerTimeout);
@@ -17,7 +18,7 @@ export const Spinner = () => {
   }, []); // Empty dependency array ensures useEffect runs only once
 
   return (
-    <div className={`spinner ${visible ? 'visible' : ''}`}>
+    <div className={`spinner ${daytime.className} ${visible ? ' visible' : ''}`}>
       <div className="spinner-wrapper">
         <img src="assets/images/spinner.png" alt="spinner" />
         <div class="loader-container">

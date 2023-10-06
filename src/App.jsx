@@ -26,6 +26,7 @@ import Column from './components/layout/Column'
 import { SmirnoffSodaLogo } from './components/logos/SmirnoffSodaLogo'
 import { Spinner } from './components/Spinner'
 import { ShareModal } from './components/ShareModal'
+import { StarLogoNight } from './components/logos/StarLogoNight'
 
 function App() {
   const [city, setCity] = useState()
@@ -45,7 +46,7 @@ function App() {
 
   const updateTemplate = (choice) => {
     if (city && daytime) {
-      setTemplate('intro')
+      setTemplate('intro') 
     } else if (city) {
       setTemplate('results')
       document.body.classList.add('results');
@@ -89,7 +90,7 @@ function App() {
   }
 
   return (
-    <div className={'main-container ' + template }>
+    <div className={ city && daytime ? 'main-container ' + template + ' ' + city + ' ' + daytime : 'main-container ' + template }>
       <Header />
       { !city && template === 'intro' && 
       <>
@@ -172,7 +173,7 @@ function App() {
       </>}
       { city && daytime &&
       <>
-      <Spinner />
+      <Spinner className={daytime} />
       { daytime === 'day' ? <BackgroundImage src='assets/images/day-dark.png' alt='results top image'/> : <BackgroundImage src='assets/images/night-dark.png' alt='results top image'/>}
       {isModalOpen && <ShareModal showModal={isModalOpen} closeModal={closeModal} />}
       <section className="results-top-section">
@@ -214,7 +215,7 @@ function App() {
                   Enter to Win
                 </a>
                 <button className='star' onClick={() => regeneratetemplate()}>
-                <StarLogo />
+                {daytime === 'day' ? <StarLogo /> : <StarLogoNight />}
                 </button>
               </div>
             </Column>

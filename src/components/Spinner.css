@@ -20,6 +20,19 @@
     opacity: 1;
     visibility: visible;
   }
+
+  .spinner.day.visible {
+    background-image: url(/assets/images/day-dark.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .spinner.night.visible {
+    background-image: url(/assets/images/night-dark.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
   .spinner-wrapper {
     text-align: center;

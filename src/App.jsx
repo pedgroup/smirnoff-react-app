@@ -174,13 +174,9 @@ function App() {
             <div className='top-section'></div>
             <div className={ 'choices-card ' + template }>
               <p>
-                Stuck on what to do this weekend? We’ve assembled a list of some of the biggest music festivals to the best-hidden gems that you can find in Australia. 
-                Whether you’re looking for an activity to fill out a day trip into the city, or you’re looking for a bite to eat at night, we’ve got you covered. Or, if you’re feeling spontaneous, pick one of Smirnoff’s Soda flavours and we’ll pick an activity for ya.
+                Stuck on what to do this weekend? We’ve assembled a list of some of the biggest music festivals to the best-hidden gems that you can find in Australia. Whether you’re looking for an activity to fill out a day trip into the city, or you’re looking for a bite to eat at night, we’ve got you covered. Or, if you’re feeling spontaneous, pick day or night, and your Smirnoff Soda flavour will be chosen based on your activity.
               </p>
-              <Button 
-                updateTemplate={updateTemplate}
-                choice='cities'
-              >
+              <Button updateTemplate={updateTemplate} choice='cities'>
                 <StartLogo />
               </Button>
             </div>

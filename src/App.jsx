@@ -5,7 +5,7 @@ import { Button } from './components/Button'
 
 import { StartLogo } from './components/logos/StartLogo'
 import { StarLogo } from './components/logos/StarLogo'
-import { DrinkWiseLogo } from './components/logos/DrinkWiseLogo'
+import { SmirnoffPedestrianLogo } from './components/logos/SmirnoffPedestrianLogo'
 
 import { cards } from "./data/cards"
 
@@ -27,6 +27,8 @@ import { SmirnoffSodaLogo } from './components/logos/SmirnoffSodaLogo'
 import { Spinner } from './components/Spinner'
 import { ShareModal } from './components/ShareModal'
 import { StarLogoNight } from './components/logos/StarLogoNight'
+import { EnterLogo } from './components/logos/EnterLogo'
+import { DrinkIQLogo } from './components/logos/DrinkIQLogo'
 
 function App() {
   const [city, setCity] = useState()
@@ -35,6 +37,39 @@ function App() {
   const [regenerateTemplate, setRegenerateTemplate] = useState(false)
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [sodaCards, setSodaCards] = useState([]);
+
+  // State to manage age verification
+  const [verificationAge, setVerificationAge] = useState(true);
+
+  // State to store user input for age verification
+  const [birthYear, setBirthYear] = useState('');
+
+  // State to manage the error message
+  const [errorMessage, setErrorMessage] = useState('');
+
+  // Function to handle age verification
+  const handleAgeVerification = () => {
+    const currentYear = new Date().getFullYear();
+    const userYear = parseInt(birthYear, 10);
+
+    // Check if the user is at least 18 years old and not more than 103 years old
+    if (userYear && currentYear - userYear >= 18 && currentYear - userYear <= 103) {
+      // Allow user to proceed
+      setVerificationAge(false);
+    } else {
+      // Display an error message
+      setErrorMessage('You must be at least 18 years old and not more than 103 years old to proceed.');
+    }
+  };
+
+  // Calculate whether the "Enter" button should be disabled
+  const isEnterButtonDisabled = () => {
+    const currentYear = new Date().getFullYear();
+    const userYear = parseInt(birthYear, 10);
+
+    // Disable the button if the input is not a valid birth year
+    return !(userYear && currentYear - userYear >= 18 && currentYear - userYear <= 103);
+  };
 
   const openModal = () => {
     setIsModalOpen(true);
@@ -94,19 +129,63 @@ function App() {
       <Header />
       { !city && template === 'intro' && 
       <>
-        <div className='top-section'></div>
-        <div className={ 'choices-card ' + template }>
-          <p>
-            Stuck on what to do this weekend? We’ve assembled a list of some of the biggest music festivals to the best-hidden gems that you can find in Australia. 
-            Whether you’re looking for an activity to fill out a day trip into the city, or you’re looking for a bite to eat at night, we’ve got you covered. Or, if you’re feeling spontaneous, pick one of Smirnoff’s Soda flavours and we’ll pick an activity for ya.
-          </p>
-          <Button 
-            updateTemplate={updateTemplate}
-            choice='cities'
-          >
-            <StartLogo />
-          </Button>
+      {/* Age verification section */}
+      {verificationAge && (
+        <div className="age-verification">
+          <div className="age-verification-content">
+            <SmirnoffPedestrianLogo />
+            <h2>Adventure awaits you</h2>
+            <p>Enter your Date of Birth to find out more</p>
+            <div className="age-verification-input">
+              {/* Input for year only */}
+              <input
+                className="birth-year"
+                type="number"
+                placeholder="YYYY"
+                value={birthYear}
+                onChange={(e) => setBirthYear(e.target.value)}
+              />
+              <button
+                className="enter-button" 
+                onClick={handleAgeVerification} 
+                disabled={isEnterButtonDisabled()}
+              >
+                <EnterLogo />
+              </button>
+            </div>
+            <p>As part of our commitment to responsible drinking:</p>
+            <p>
+              <a href='https://www.drinkiq.com/' target='_blank'>
+                <DrinkIQLogo />
+              </a>
+            </p>
+            <p>
+              <a href='https://footer.diageohorizon.com/dfs/assets/www.smirnoff.com/TnC_en.html?locale=en-row&tnc=true' target='_blank' >
+                Conditions of Use Australia
+              </a>
+            </p>
+          </div>
+          {/* Display error message if present */}
+          {errorMessage && <p className="error-message">{errorMessage}</p>}
         </div>
+      )}
+        { !verificationAge && (
+          <>
+            <div className='top-section'></div>
+            <div className={ 'choices-card ' + template }>
+              <p>
+                Stuck on what to do this weekend? We’ve assembled a list of some of the biggest music festivals to the best-hidden gems that you can find in Australia. 
+                Whether you’re looking for an activity to fill out a day trip into the city, or you’re looking for a bite to eat at night, we’ve got you covered. Or, if you’re feeling spontaneous, pick one of Smirnoff’s Soda flavours and we’ll pick an activity for ya.
+              </p>
+              <Button 
+                updateTemplate={updateTemplate}
+                choice='cities'
+              >
+                <StartLogo />
+              </Button>
+            </div>
+          </>
+        )}
       </>
       }
       { !city && template==='cities' && 

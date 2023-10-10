@@ -457,5 +457,9 @@ button.enter-button:hover {
 }
 
 .enter-button:disabled {
-  opacity: 0.5;
+  opacity: 0.3;
+}
+.enter-button:disabled:hover {
+  opacity: 0.3;
+  cursor: not-allowed;
 }

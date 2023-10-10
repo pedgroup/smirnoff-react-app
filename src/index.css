@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Korolev-Bold';
-  src: url(./assest/fonts/Korolev-Bold.woff2) format("woff2")
+  src: url(/assest/fonts/Korolev-Bold.woff2) format("woff2")
 }
 
 :root {

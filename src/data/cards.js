@@ -33,11 +33,6 @@ export const cards = [
                 image: 'assets/images/cards/melbourne/The_Hot_Melbourne_Fringe_Festival.png' 
             },
             { 
-                title: 'The Rad RnB Fridayz Live',
-                soda: 'Pink Grapefruit Crush',
-                image: 'assets/images/cards/melbourne/The_Rad_RnB_Fridayz_Live.png' 
-            },
-            { 
                 title: 'The Laugh Out Loud Basement Comedy Club',
                 soda: 'Pink Grapefruit Crush',
                 image: 'assets/images/cards/melbourne/The_Laugh_Out_Loud_Basement_Comedy_Club.png' 
@@ -102,11 +97,6 @@ export const cards = [
                 title: 'The Sultry Dean & Nancy’s',
                 soda: 'Yuzu Citrus Burst',
                 image: 'assets/images/cards/sydney/The_Sultry_Dean___Nancy’s.png' 
-            },
-            { 
-                title: 'The Nostalgic RnB Fridayz',
-                soda: 'Pink Grapefruit Crush',
-                image: 'assets/images/cards/sydney/The_Nostalgic_RnB_Fridayz.png' 
             },
             { 
                 title: 'The Stunning Phoenix Central Park',
@@ -220,11 +210,6 @@ export const cards = [
                 title: 'The Indulgent Popolo',
                 soda: 'Pineapple & Lime',
                 image: 'assets/images/cards/brisbane/The_Indulgent_Popolo.png' 
-            },
-            { 
-                title: 'The Old-School RnB Fridayz',
-                soda: 'Pineapple & Lime',
-                image: 'assets/images/cards/brisbane/The_Old-School_RnB_Fridayz.png' 
             },
             { 
                 title: 'The Iconic Caxton Hotel',
@@ -377,11 +362,6 @@ export const cards = [
                 title: 'The Ornate Optus Stadium',
                 soda: 'Pineapple & Lime',
                 image: 'assets/images/cards/perth/The_Ornate_Optus_Stadium.png' 
-            },
-            { 
-                title: 'The Old-School RnB Fridayz',
-                soda: 'Pineapple & Lime',
-                image: 'assets/images/cards/perth/The_Old-School_RnB_Fridayz.png' 
             },
         ]
     },

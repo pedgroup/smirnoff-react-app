@@ -160,7 +160,7 @@ function App() {
               </a>
             </p>
             <p>
-              <a href='https://footer.diageohorizon.com/dfs/assets/www.smirnoff.com/TnC_en.html?locale=en-row&tnc=true' target='_blank' >
+              <a href='https://www.pedestrian.tv/website-terms-of-service/' target='_blank' >
                 Conditions of Use Australia
               </a>
             </p>
@@ -174,7 +174,9 @@ function App() {
             <div className='top-section'></div>
             <div className={ 'choices-card ' + template }>
               <p>
-                Stuck on what to do this weekend? We’ve assembled a list of some of the biggest music festivals to the best-hidden gems that you can find in Australia. Whether you’re looking for an activity to fill out a day trip into the city, or you’re looking for a bite to eat at night, we’ve got you covered. Or, if you’re feeling spontaneous, pick day or night, and your Smirnoff Soda flavour will be chosen based on your activity.
+                Stuck on what to do this weekend? We’ve assembled a list of some of the biggest music festivals to the best-hidden gems that you can find in Australia. 
+                Whether you’re looking for an activity to fill out a day trip into the city, or you’re looking for a bite to eat at night, we’ve got you covered. 
+                Change wording around Soda & activity: Pick day or night, and an activity will be chosen for you inspired by Smirnoff Soda flavours.
               </p>
               <Button updateTemplate={updateTemplate} choice='cities'>
                 <StartLogo />
@@ -306,7 +308,9 @@ function App() {
           </Columns>
         </div>
       </section>
-      <p className='disclaimer'>*Lorem ipsum dolor sit amet consectetur. In massa diam mauris aliquam vulputate. Odio tortor hac cras egestas ipsum vitae mauris. Magnis nulla fau.</p>
+        <p className='disclaimer'>
+          *Enter here for your chance to win prizes including festival tickets, Smirnoff bucket hats, Smirnoff Sodas and more! All you have to do is click Enter To Win, fill in the form with your details and tell us in 25 words or less, About The Best Adventure You've Ever Had For A Chance To Win
+        </p>
       </>
       }
       

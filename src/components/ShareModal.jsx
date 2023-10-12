@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import './ShareModal.css'
 import { CloseLogo } from './logos/CloseLogo';
 import { FacebookLogo } from './logos/FacebookLogo';
-import { TwitterLogo } from './logos/TwitterLogo';
 import { MailLogo } from './logos/MailLogo';
 
 export const ShareModal = ( { showModal, closeModal } ) => {
@@ -27,11 +26,6 @@ export const ShareModal = ( { showModal, closeModal } ) => {
                     <li className="share-list__item">
                         <a className="social-share facebook" href="https://www.facebook.com/sharer/sharer.php?u=#" target="_blank" onClick="return !window.open(this.href, 'Facebook', 'width=640,height=580')" rel="noopener noreferrer">
                             <FacebookLogo />
-                        </a>
-                    </li>
-                    <li className="share-list__item">
-                        <a className="social-share twitter" href="https://twitter.com/share?text=#" onClick="return !window.open(this.href, 'sharetwitter', 'width=640,height=580')" target="_blank" rel="noopener noreferrer">
-                            <TwitterLogo />
                         </a>
                     </li>
                     <li className="share-list__item">

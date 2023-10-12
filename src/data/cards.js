@@ -84,6 +84,11 @@ export const cards = [
                 image: 'assets/images/cards/sydney/The_Classic_Golden_Age_Cinemas.png' 
             },
             { 
+                title: 'The Relaxed Red Lion Hotel',
+                soda: 'Yuzu Citrus Burst',
+                image: 'assets/images/cards/sydney/The_Relaxed_Red_Lion_Hotel.png' 
+            },
+            { 
                 title: 'The Brand New Abercrombie Hotel',
                 soda: 'Yuzu Citrus Burst',
                 image: 'assets/images/cards/sydney/The_Brand_New_Abercrombie_Hotel.png' 
@@ -182,6 +187,11 @@ export const cards = [
                 image: 'assets/images/cards/brisbane/The_Classic_Paddo_Pub.png' 
             },
             { 
+                title: 'The Wholesome West End Markets',
+                soda: 'Pineapple & Lime',
+                image: 'assets/images/cards/brisbane/The_Wholesome_West_End_Markets.png' 
+            },
+            { 
                 title: 'The Gorge Howard Smith Wharves',
                 soda: 'Pineapple & Lime',
                 image: 'assets/images/cards/brisbane/The_Gorge_Howard_Smith_Wharves.png' 
@@ -258,6 +268,11 @@ export const cards = [
                 image: 'assets/images/cards/adelaide/The_Stunning_Glenelg_Pier_Hotel.png' 
             },
             { 
+                title: 'The Sunny Seacliff Beach',
+                soda: 'Pineapple & Lime',
+                image: 'assets/images/cards/adelaide/The_Sunny_Seacliff_Beach.png' 
+            },
+            { 
                 title: 'The Rugged & Beautiful Morialta Conservation Park',
                 soda: 'Lime & Lemon',
                 image: 'assets/images/cards/adelaide/The_Rugged___Beautiful_Morialta_Conservation_Park.png' 
@@ -300,6 +315,11 @@ export const cards = [
                 title: 'The Scrumptious Sik Gaek',
                 soda: 'Yuzu Citrus Burst',
                 image: 'assets/images/cards/perth/The_Scrumptious_Sik_Gaek.png' 
+            },
+            { 
+                title: 'The Magical Magnet House',
+                soda: 'Yuzu Citrus Burst',
+                image: 'assets/images/cards/perth/The_Magical_Magnet_House.png' 
             },
             { 
                 title: 'The Effervescent Glowing Room',

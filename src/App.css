@@ -403,9 +403,13 @@ section.results-top-section {
 }
 
 .age-verification {
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   background-color: #FFC846;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
 }
 
 .age-verification-content {

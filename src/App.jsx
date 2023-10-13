@@ -176,7 +176,7 @@ function App() {
               <p>
                 Stuck on what to do this weekend? We’ve assembled a list of some of the biggest music festivals to the best-hidden gems that you can find in Australia. 
                 Whether you’re looking for an activity to fill out a day trip into the city, or you’re looking for a bite to eat at night, we’ve got you covered. 
-                Change wording around Soda & activity: Pick day or night, and an activity will be chosen for you inspired by Smirnoff Soda flavours.
+                Pick day or night, and an activity will be chosen for you inspired by Smirnoff Soda flavours.
               </p>
               <Button updateTemplate={updateTemplate} choice='cities'>
                 <StartLogo />

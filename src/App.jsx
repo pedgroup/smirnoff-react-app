@@ -178,6 +178,9 @@ function App() {
                 Whether you’re looking for an activity to fill out a day trip into the city, or you’re looking for a bite to eat at night, we’ve got you covered. 
                 Pick day or night, and an activity will be chosen for you inspired by Smirnoff Soda flavours.
               </p>
+              <p>
+                Enter for your chance to win prizes including festival tickets, Smirnoff bucket hats, Smirnoff Sodas and more! All you have to do is click Enter To Win, fill in the form with your details and tell us in 25 words or less, About The Best Adventure You've Ever Had For A Chance To Win.
+              </p>
               <Button updateTemplate={updateTemplate} choice='cities'>
                 <StartLogo />
               </Button>
@@ -308,9 +311,6 @@ function App() {
           </Columns>
         </div>
       </section>
-        <p className='disclaimer'>
-          *Enter here for your chance to win prizes including festival tickets, Smirnoff bucket hats, Smirnoff Sodas and more! All you have to do is click Enter To Win, fill in the form with your details and tell us in 25 words or less, About The Best Adventure You've Ever Had For A Chance To Win
-        </p>
       </>
       }
       

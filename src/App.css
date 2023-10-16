@@ -19,7 +19,7 @@
   justify-content: end;
   width: 100%;
   position: relative;
-  min-height: 55vh;
+  min-height: 550px;
   overflow: hidden;
   background-image: url(/assets/images/top_image.jpg);
   background-position: bottom;
@@ -35,10 +35,13 @@
   margin-bottom: 0;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 1024px) {
   .main-container.intro .top-section {
-    min-height: 60vh;
+    min-height: 445px;
   }
+}
+
+@media screen and (min-width: 767px) {
   .top-section-text {
     margin-bottom: 2rem;
   }
@@ -46,13 +49,19 @@
 
 @media screen and (min-width: 1400px) {
   .main-container.intro .top-section {
-    min-height: 70vh;
+    min-height: 750px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .main-container.intro .top-section {
+    min-height: 950px;
   }
 }
 
 @media screen and (min-width: 2000px) {
   .main-container.intro .top-section {
-    min-height: 75vh;
+    min-height: 1000px;
   }
 }
 

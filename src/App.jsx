@@ -311,6 +311,9 @@ function App() {
           </Columns>
         </div>
       </section>
+        <p className="disclaimer">
+          Enter for your chance to win prizes including festival tickets, Smirnoff bucket hats, Smirnoff Sodas and more! All you have to do is click Enter To Win, fill in the form with your details and tell us in 25 words or less, About The Best Adventure You've Ever Had For A Chance To Win.
+        </p>
       </>
       }
       
